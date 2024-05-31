@@ -134,8 +134,10 @@ function displayWeather(data) {
             iconSrc = './img/clouds.png';
         } else if (description.includes('snow')) {
             iconSrc = './img/snow.png';
-        } else if (description.includes('fog')) {
+         } else if (description.includes('fog')) {
             iconSrc = './img/mist.png';
+        } else if (description.includes('mist')) {
+            iconSrc = './img/fog.png';
         } else if (description.includes('rain')) {
             iconSrc = './img/rain.png';
         } else if (description.includes('thund')) { // Checking for 'thund' to cover thunderstorms
