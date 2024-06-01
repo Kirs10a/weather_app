@@ -129,19 +129,19 @@ function displayWeather(data) {
         // Extracting keywords from weather description
         const description = data.weather[0].description.toLowerCase();
         if (description.includes('clear')) {
-            iconSrc = './img/clear.png';
+            iconSrc = './Img/clear.png';
         } else if (description.includes('clouds')) {
-            iconSrc = './img/clouds.png';
+            iconSrc = './Img/clouds.png';
         } else if (description.includes('snow')) {
-            iconSrc = './img/snow.png';
+            iconSrc = './Img/snow.png';
         } else if (description.includes('fog')) {
-            iconSrc = './img/mist.png';
+            iconSrc = './Img/mist.png';
         } else if (description.includes('mist')) {
-            iconSrc = './img/fog.png';
+            iconSrc = './Img/fog.png';
         } else if (description.includes('rain')) {
-            iconSrc = './img/rain.png';
+            iconSrc = './Img/rain.png';
         } else if (description.includes('thund')) { // Checking for 'thund' to cover thunderstorms
-            iconSrc = './img/thunder.png';
+            iconSrc = './Img/thunder.png';
         } else {
             //display icon from open weather if no icon match is found
             iconSrc = 'https://openweathermap.org/img/w/${data.weather[0].icon}.png';
