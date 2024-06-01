@@ -131,20 +131,20 @@ function displayWeather(data) {
         if (description.includes('clear')) {
             iconSrc = `./Img/clear.png`;
         } else if (description.includes('clouds')) {
-            iconSrc = './Img/clouds.png';
+            iconSrc = `./Img/clouds.png`;
         } else if (description.includes('snow')) {
-            iconSrc = './Img/snow.png';
+            iconSrc = `./Img/snow.png`;
         } else if (description.includes('fog')) {
-            iconSrc = './Img/mist.png';
+            iconSrc = `./Img/mist.png`;
         } else if (description.includes('mist')) {
-            iconSrc = './Img/fog.png';
+            iconSrc = `./Img/fog.png`;
         } else if (description.includes('rain')) {
-            iconSrc = './Img/rain.png';
+            iconSrc = `./Img/rain.png`;
         } else if (description.includes('thund')) { // Checking for 'thund' to cover thunderstorms
-            iconSrc = './Img/thunder.png';
+            iconSrc = `./Img/thunder.png`;
         } else {
             //display icon from open weather if no icon match is found
-            iconSrc = 'https://openweathermap.org/img/w/${data.weather[0].icon}.png';
+            iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
         }
 
         // Displaying weather information with custom icon
