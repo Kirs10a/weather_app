@@ -129,7 +129,7 @@ function displayWeather(data) {
         // Extracting keywords from weather description
         const description = data.weather[0].description.toLowerCase();
         if (description.includes('clear')) {
-            iconSrc = './Img/clear.png';
+            iconSrc = `./Img/clear.png`;
         } else if (description.includes('clouds')) {
             iconSrc = './Img/clouds.png';
         } else if (description.includes('snow')) {
