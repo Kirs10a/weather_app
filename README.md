@@ -25,5 +25,5 @@ Setup
 Clone the repository.
 bash
 Copy code
-git clone https://github.com/yourusername/weather-forecast-website.git
+git clone (https://kirs10a.github.io/weather_app/)
 Open index.html in a browser to view the website.
